@@ -1,9 +1,9 @@
 # ipTIME Router firmwares < 9.58 RCE with root privileges
 ## The Basics
-<b>Product :</b> <a href="https://pierrekim.github.io/blog/2015-05-05-127-iptime-routers-wifiaps-modems-firewalls-models-vulnerable-with-RCE-with-root-privileges.html">total 127 devices were affected (ipTIME Router firmwares < 9.58)</a></br>
-<b>Tested Version :</b> ipTIME N604R Version 9.24</br>
-<b>Bug-class :</b> Remote Code Execution (Command Injection)</br>
-
+<b>Product :</b> <a href="https://pierrekim.github.io/blog/2015-05-05-127-iptime-routers-wifiaps-modems-firewalls-models-vulnerable-with-RCE-with-root-privileges.html">total 127 devices were affected (ipTIME Router firmwares < 9.58)</a><br>
+<b>Tested Version :</b> ipTIME N604R Version 9.24<br>
+<b>Bug-class :</b> Remote Code Execution (Command Injection)<br>
+<br>
 ## Exploit PoC
 ```python
 import os
@@ -43,6 +43,6 @@ if __name__ == "__main__":
             except:
                 pass
 ```
-
+<br>
 ## Reference
 <a href="https://pierrekim.github.io/blog/2015-07-01-poc-with-RCE-against-127-iptime-router-models.html">https://pierrekim.github.io/blog/2015-07-01-poc-with-RCE-against-127-iptime-router-models.html</a>
